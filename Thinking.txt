@@ -1,0 +1,19 @@
+- Thinking about the UI (Wire - FRAMING)
+- Functionality
+  - Add TODO_ITEM 
+  - Delete TODO_ITEM
+  - Check TASK
+  - Total task
+- DATA
+    - task - Array [{},{}, {},{}] 
+    - task - An object 
+    { 
+        done: true/false, text: 'Go to the gym',
+        id
+    }
+
+- Function (in code)
+    - addTodo
+    - deleteTodo
+    - checkTodo
+    - renderList
